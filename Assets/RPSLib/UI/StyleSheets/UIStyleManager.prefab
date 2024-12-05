@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2372157266203248476
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1944304883326099062}
+  - component: {fileID: 1000247818663767056}
+  m_Layer: 0
+  m_Name: UIStyleManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1944304883326099062
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2372157266203248476}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1000247818663767056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2372157266203248476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b76f993b400e3542b4aaab62ae7c9a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PrimaryButtonStyleSheet: {fileID: 11400000, guid: 359920517df57824abe74d424ac0dced,
+    type: 2}
+  SecondaryButtonStyleSheet: {fileID: 0}
+  SquareButtonStyleSheet: {fileID: 11400000, guid: a575c852fd4ba904cb696bbcc4852c3c,
+    type: 2}
+  CircleButtonStyleSheet: {fileID: 0}
+  CloseButtonStyleSheet: {fileID: 11400000, guid: d9b93e1883cbe6c4cac36b67a8c1c91a,
+    type: 2}
+  ConfirmButtonStyleSheet: {fileID: 0}
+  CancelButtonStyleSheet: {fileID: 0}
+  PanelStyleSheet: {fileID: 11400000, guid: 853fb18ab2e965744808839403809396, type: 2}
+  PanelTitleStyleSheet: {fileID: 11400000, guid: 63d39d68328593845ade1d593ada9697,
+    type: 2}

@@ -1,0 +1,31 @@
+SAVE / LOAD FLOW:
+
+SAVING:
+1. Press SAVE
+	- Writes all save data in SaveData class to JSON.
+	- SaveData contains references to Saveable objects such as BuildingDatam ResourceData and VillagerData.
+		- BuildingData is set per building when one is placed or changed/moved (TODO).
+		- ResourceData is set every time a resource amount changes.
+		- VillagerData is set every time one is Initalized or when they are assigned a new Residence/Workplace.
+
+
+LOADING:
+1. Press LOAD
+	- SaveManager loads the existing JSON (if exists) and overwrites the existing SaveData
+		- LoadManager is used to run through each loading algorithm (LoadBuildings, LoadResources etc...)
+			- For example, LoadBuildings() tells the ConstructionManager to InstantiateSavedBuilding with the loaded building data, for each saved building.
+	- Certain game-start scripts have a check to see if we are working with a loaded game, if we are, don't do specific tasks
+		- For example, VillagerManager will not spawn the default 6 villagers if we are loading from a saved game.
+
+
+
+CURRENT ISSUES:
+- FIXED * Loading resources was failing
+	- This was due to the ResourceManager not Initializing the set of Resources as Init was not being called during loading.
+- FIXED * Villagers not re-assigning to their houses after loading, not sure if we can store this data, maybe just let them re-assign by position.
+	- Got villagers to auto-assign on load
+- FIXED * Villagers not assigning to workplaces, workplaces assigneWorkers count goes to 0 at load, despite saving correctly.
+	- Got villagers to auto-assign on load
+
+TODO:
+- DONE * Implement multi-save file structure.

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acf8560c8016a5b4aaffc6e6535e339f, type: 3}
+  m_Name: RarityColors
+  m_EditorClassIdentifier: 
+  Common: {r: 0, g: 0, b: 0, a: 0.101960786}
+  CommonBorder: {r: 0.6, g: 0.6, b: 0.6, a: 0.050980393}
+  CommonSecondary: {r: 0, g: 0, b: 0, a: 0}
+  Uncommon: {r: 0.3584314, g: 0.9019608, b: 0.0901961, a: 0.050980393}
+  UncommonBorder: {r: 0.3584314, g: 0.9019608, b: 0.0901961, a: 0.101960786}
+  UncommonSecondary: {r: 0, g: 0, b: 0, a: 0}
+  Rare: {r: 0.09019604, g: 0.7666666, b: 0.9019608, a: 0.14901961}
+  RareBorder: {r: 0.09019604, g: 0.7666666, b: 0.9019608, a: 0.14901961}
+  RareSecondary: {r: 0, g: 0, b: 0, a: 0}
+  VeryRare: {r: 0.49607843, g: 0.09019604, b: 0.9019608, a: 0.5019608}
+  VeryRareBorder: {r: 0.49607843, g: 0.09019604, b: 0.9019608, a: 0.2}
+  VeryRareSecondary: {r: 0, g: 0, b: 0, a: 0}
+  Legendary: {r: 0.9019608, g: 0.09019604, b: 0.6313724, a: 0.4509804}
+  LegendaryBorder: {r: 0.9019608, g: 0.09019604, b: 0.6313724, a: 0.5019608}
+  LegendarySecondary: {r: 0.6313728, g: 0.0901961, b: 0.9019608, a: 0.5019608}
+  Cosmic: {r: 1, g: 0.5826087, b: 0, a: 0.2}
+  CosmicBorder: {r: 1, g: 0.5826087, b: 0, a: 0.7490196}
+  CosmicSecondary: {r: 0.9019608, g: 0.09019604, b: 0.6313724, a: 0.5019608}
+  Prototype: {r: 1, g: 0.9166666, b: 0, a: 0.29803923}
+  PrototypeBorder: {r: 1, g: 0.9166666, b: 0, a: 1}
+  PrototypeSecondary: {r: 1, g: 0.5826087, b: 0, a: 0.7490196}
+  IllegalBorder: {r: 1, g: 0, b: 0, a: 1}

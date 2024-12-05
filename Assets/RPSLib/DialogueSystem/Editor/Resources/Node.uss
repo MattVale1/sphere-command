@@ -1,0 +1,9 @@
+DialogueNode #title {
+    min-height: 50px;
+
+    -unity-font-style: bold;
+    flex-wrap: wrap;
+    color: rgb(0,0,0);
+
+    background-color: rgba(25, 215, 255, 0.4);
+}

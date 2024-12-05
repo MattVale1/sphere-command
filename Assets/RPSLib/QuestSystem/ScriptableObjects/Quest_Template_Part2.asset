@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1312a3620383d554191fc3f2489118dc, type: 3}
+  m_Name: Quest_Template_Part2
+  m_EditorClassIdentifier: 
+  data:
+    ID: TEST_QUEST_PART_2
+    IS_ACTIVE: 1
+    IS_COMPLETE: 0
+    PROGRESS: 0
+  QUEST_ID: TEST_QUEST_PART_2
+  sourceOfQuest: Gary Bigtoes
+  title: Test quest part 2.
+  description: This is a description for test quest part 2.
+  rewards:
+  - RewardType: {fileID: 11400000, guid: c11c809b3a1959e4cb53b8765cad1783, type: 2}
+    RewardAmount: 12000
+  - RewardType: {fileID: 11400000, guid: dc383f34e34281d4989b8468bb59b9f4, type: 2}
+    RewardAmount: 2
+  bonusRewards:
+  - RewardType: {fileID: 11400000, guid: 1eea6b76f1b397844836232f532f0d6b, type: 2}
+    RewardAmount: 32
+  bonusRewardsEarned: 0
+  requiredQuestSteps: 5
+  questProgress: 0
+  isActive: 0
+  isCompleted: 0
+  mustHaveCompleted: []
+  triggersNextQuest: []

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1312a3620383d554191fc3f2489118dc, type: 3}
+  m_Name: Test_Claimable_Quest
+  m_EditorClassIdentifier: 
+  data:
+    ID: TEST_CLAIMABLE_QUEST
+    IS_ACTIVE: 0
+    IS_COMPLETE: 1
+    PROGRESS: 1
+  QUEST_ID: TEST_CLAIMABLE_QUEST
+  sourceOfQuest: System
+  title: Claimable Test Quest
+  description: This quest should be displaying as claimable.
+  Objectives:
+  - {fileID: 0}
+  rewards:
+  - RewardType: {fileID: 11400000, guid: c11c809b3a1959e4cb53b8765cad1783, type: 2}
+    RewardAmount: 200000
+  - RewardType: {fileID: 11400000, guid: e556f7928fcd0cb47b1d3028b309fc66, type: 2}
+    RewardAmount: 64
+  - RewardType: {fileID: 11400000, guid: 1eea6b76f1b397844836232f532f0d6b, type: 2}
+    RewardAmount: 32
+  - RewardType: {fileID: 11400000, guid: c712463bc70078242b2f7613d178bfe9, type: 2}
+    RewardAmount: 2
+  bonusRewards:
+  - RewardType: {fileID: 11400000, guid: 5f8afc0ba47e98e4aa17b17e308fab78, type: 2}
+    RewardAmount: 32
+  - RewardType: {fileID: 11400000, guid: 8e934abdc3e789348a37de064ebe3018, type: 2}
+    RewardAmount: 1
+  bonusRewardsEarned: 1
+  requiredQuestSteps: 1
+  questProgress: 0
+  isActive: 0
+  isCompleted: 0
+  mustHaveCompleted: []
+  triggersNextQuest: []

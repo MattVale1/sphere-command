@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ad2039d60a7da744bd16325ff546602, type: 3}
+  m_Name: ConfirmButtonStyle
+  m_EditorClassIdentifier: 
+  primaryImage: {fileID: 1480769237, guid: 9ece747ded0eccf45ad001b0a9678120, type: 3}
+  style:
+    m_NormalColor: {r: 0.100000024, g: 1, b: 0.40000015, a: 1}
+    m_HighlightedColor: {r: 0.5, g: 1, b: 0.66593885, a: 1}
+    m_PressedColor: {r: 0.05098039, g: 0.5, b: 0.19999999, a: 1}
+    m_SelectedColor: {r: 0.100000024, g: 1, b: 0.40000015, a: 1}
+    m_DisabledColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
